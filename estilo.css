@@ -1,0 +1,246 @@
+/* ======= ESTILO GERAL ======= */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffe6f0;
+  color: #4a4a4a;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffb6c1;
+  text-align: center;
+  padding: 30px;
+  color: #fff;
+  text-shadow: 1px 1px 4px #d35b7d;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-top: 8px;
+}
+
+/* ======= INTRODUÇÃO ======= */
+.intro {
+  text-align: center;
+  padding: 20px;
+}
+
+.banner {
+  max-width: 500px;
+  width: 90%;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0 0 15px #ff7fa2;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  background-color: #ff7fa2;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #ff4d79;
+}
+
+/* ======= DADOS ======= */
+.dados {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30px 10px;
+  gap: 20px;
+}
+
+.dado {
+  background-color: #ffb6c1;
+  border-radius: 10px;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  width: 250px;
+  font-size: 1.1em;
+  box-shadow: 0 0 10px #ff7fa2;
+}
+
+/* ======= PREVENÇÃO ======= */
+.prevencao {
+  background-color: #ffdce6;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.prevencao h2 {
+  text-align: center;
+  color: #d35b7d;
+}
+
+.conteudo-prevencao {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.box {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #ff9bb3;
+  padding: 15px;
+  margin-top: 10px;
+  width: 280px;
+}
+
+.box h4 {
+  color: #d35b7d;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 5px 0;
+}
+
+/* ======= EXAMES ======= */
+.exames {
+  flex: 1;
+  min-width: 250px;
+}
+
+.exames h3 {
+  color: #d35b7d;
+}
+
+.botao-locais {
+  margin-top: 15px;
+  background-color: #ff4d79;
+}
+
+/* ======= AUTOEXAME ======= */
+.autoexame-section {
+  text-align: center;
+  padding: 30px;
+}
+
+.autoexame-section h2 {
+  color: #d35b7d;
+}
+
+.autoexame-passos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.passo {
+  background-color: #ffb6c1;
+  border-radius: 10px;
+  color: white;
+  width: 280px;
+  padding: 20px;
+  box-shadow: 0 0 10px #ff7fa2;
+}
+
+/* ======= RODAPÉ ======= */
+footer {
+  background-color: #ffb6c1;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+}
+/* ======= HISTÓRIAS INSPIRADORAS ======= */
+.historias {
+  background-color: #ffe6ef;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin: 40px 20px;
+  box-shadow: 0 0 15px #ffb6c1;
+}
+
+.historias h2 {
+  color: #d35b7d;
+  font-family: 'Poppins', cursive;
+}
+
+.historias p {
+  color: #4a4a4a;
+  font-size: 1.1em;
+  max-width: 700px;
+  margin: 10px auto;
+}
+
+.btn-relato {
+  background-color: #ff4d79;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-size: 1em;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-relato:hover {
+  background-color: #ff3366;
+}
+
+.cards-historias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #fff;
+  width: 280px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ffb6c1;
+  padding: 20px;
+  text-align: left;
+}
+
+.card h3 {
+  color: #d35b7d;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #4a4a4a;
+  font-size: 0.95em;
+  line-height: 1.5em;
+}
+
+.inspiracao {
+  color: #d35b7d;
+  font-weight: bold;
+  margin-top: 30px;
+}
